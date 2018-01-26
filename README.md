@@ -8,3 +8,9 @@ Android 画直方图
 Demo:
 
 ![](https://i.loli.net/2017/09/06/59afa3bcdec8e.png)
+
+### 18/1/26 更新
+
+画饼状图：
+
+![](https://i.loli.net/2018/01/26/5a6a94810552e.png)
