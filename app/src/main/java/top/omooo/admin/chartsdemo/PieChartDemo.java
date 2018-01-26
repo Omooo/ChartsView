@@ -26,10 +26,10 @@ public class PieChartDemo extends AppCompatActivity {
         setContentView(pieChart);
 
         mPieBeans.add(new PieBean("A", 150));
-        mPieBeans.add(new PieBean("A", 80));
-        mPieBeans.add(new PieBean("A", 200));
-        mPieBeans.add(new PieBean("A", 100));
-        mPieBeans.add(new PieBean("A", 180));
+        mPieBeans.add(new PieBean("B", 80));
+        mPieBeans.add(new PieBean("C", 200));
+        mPieBeans.add(new PieBean("D", 100));
+        mPieBeans.add(new PieBean("E", 180));
         pieChart.setData(mPieBeans);
 
     }

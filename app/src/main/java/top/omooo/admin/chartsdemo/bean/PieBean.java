@@ -9,6 +9,7 @@ public class PieBean {
     private int data;
     private int color = 0;
     private float angle = 0;
+    private float percentage = 0;
 
     public PieBean(String name, int data) {
         this.name = name;
@@ -47,4 +48,11 @@ public class PieBean {
         this.angle = angle;
     }
 
+    public float getPercentage() {
+        return percentage;
+    }
+
+    public void setPercentage(float percentage) {
+        this.percentage = percentage;
+    }
 }
