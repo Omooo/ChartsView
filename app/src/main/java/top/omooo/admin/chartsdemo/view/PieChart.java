@@ -39,8 +39,6 @@ public class PieChart extends View {
         mPaint.setAntiAlias(true);
         mPaint.setTextSize(50);
         mPaint.setStrokeWidth(3f);
-
-        mPieBeans.add(new PieBean("A", 100));
     }
     public PieChart(Context context) {
         super(context);
