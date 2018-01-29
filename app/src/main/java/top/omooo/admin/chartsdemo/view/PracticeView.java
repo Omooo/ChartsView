@@ -17,9 +17,10 @@ import android.view.View;
 
 public class PracticeView extends View {
     private Paint mPaint = new Paint();
-    private Path mPath = new Path();
     private int mWidth;
     private int mHeight;
+    private int mCount = 6;
+    private float mRadius;
 
     private void init() {
         mPaint.setAntiAlias(true);
@@ -55,6 +56,8 @@ public class PracticeView extends View {
         super.onSizeChanged(w, h, oldw, oldh);
         mWidth = w;
         mHeight = h;
+        mRadius = (float) (Math.min(mWidth, mHeight) / 2 * 0.8);
+
     }
 
     @Override
@@ -62,8 +65,28 @@ public class PracticeView extends View {
         super.onDraw(canvas);
         canvas.translate(mWidth / 2, mHeight / 2);
 
+        drawPolygon(canvas);
 
     }
 
-
+    private void drawPolygon(Canvas canvas){
+        Path path = new Path();
+        float r = mRadius/(mCount-1);//r是蜘蛛丝之间的间距
+        for(int i=1;i<mCount;i++){//中心点不用绘制
+            float curR = r*i;//当前半径
+            path.reset();
+            for(int j=0;j<mCount;j++){
+                if(j==0){
+                    path.moveTo(curR,0);
+                }else{
+                    //根据半径，计算出蜘蛛丝上每个点的坐标
+                    float x = (float) (curR * Math.cos(360 / mCount * j));
+                    float y = (float) (curR * Math.sin(360 / mCount * j));
+                    path.lineTo(x,y);
+                }
+            }
+            path.close();//闭合路径
+            canvas.drawPath(path, mPaint);
+        }
+    }
 }
