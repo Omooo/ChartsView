@@ -17,7 +17,7 @@ import android.view.View;
  */
 
 /**
- * 二阶贝塞尔曲线
+ * 二阶贝塞尔曲线绘制
  */
 public class SecondBesselCurveView extends View {
 
