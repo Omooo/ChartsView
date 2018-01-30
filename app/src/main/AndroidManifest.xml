@@ -10,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BesselCurveDemo">
+        <activity android:name=".PracticeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,7 +20,7 @@
         <activity android:name=".MainActivity">
 
         </activity>
-        <activity android:name=".PracticeActivity">
+        <activity android:name=".BesselCurveDemo">
 
         </activity>
         <activity android:name=".PieChartDemo">

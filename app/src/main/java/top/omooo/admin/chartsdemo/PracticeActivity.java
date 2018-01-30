@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
+import top.omooo.admin.chartsdemo.view.WavesView;
+
 /**
  * Created by Omooo on 2018/1/26.
  */
