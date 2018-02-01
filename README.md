@@ -30,3 +30,14 @@ Demo:
 画波浪图（贝塞尔曲线实例）
 
 ![](https://i.loli.net/2018/01/30/5a7046a78c799.gif)
+
+参考自：[https://www.jianshu.com/p/f7ec5296053e](https://www.jianshu.com/p/f7ec5296053e)
+
+### 18/02/01 更新
+
+自定义一键删除的EditText（模拟器原因，实际上很流畅）
+
+![](https://i.loli.net/2018/02/01/5a72da1b01d59.gif)
+
+参考自：[https://juejin.im/post/58be5641a22b9d005ef798e7](https://juejin.im/post/58be5641a22b9d005ef798e7)
+
