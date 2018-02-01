@@ -80,6 +80,7 @@ public class NativeEditView extends android.support.v7.widget.AppCompatEditText 
         setVisible.playTogether(alphaAnimator, rotateAnimator);
         setVisible.start();
     }
+
     private void setAnimator() {
         alphaAnimator.setDuration(1000);
         alphaAnimator.setInterpolator(new AccelerateDecelerateInterpolator());
