@@ -73,6 +73,8 @@ public class NativeEditView extends android.support.v7.widget.AppCompatEditText 
             setAnimator();
             startAnimatorSet();
         }
+        //TODO：类似输入手机号 188 0000 0000 的分隔
+
     }
     //启动动画
     private void startAnimatorSet() {
