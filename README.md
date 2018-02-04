@@ -41,3 +41,17 @@ Demo:
 
 参考自：[https://juejin.im/post/58be5641a22b9d005ef798e7](https://juejin.im/post/58be5641a22b9d005ef798e7)
 
+### 18/02/04 更新
+
+自定义数字型进度条（盗张图，懒得录制，实际效果一致）
+
+![](https://i.loli.net/2018/02/04/5a769b2d52877.gif)
+
+参考自：
+
+[https://github.com/daimajia/NumberProgressBar](https://github.com/daimajia/NumberProgressBar)
+
+[http://blog.csdn.net/coderinchina/article/details/53738098](http://blog.csdn.net/coderinchina/article/details/53738098)
+
+[http://blog.csdn.net/u013015161/article/details/50493333](http://blog.csdn.net/u013015161/article/details/50493333）
+
