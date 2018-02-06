@@ -10,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProgressDemo">
+        <activity android:name=".ShowLyricDemo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -33,6 +33,9 @@
 
         </activity>
         <activity android:name=".NativeEditDemo">
+
+        </activity>
+        <activity android:name=".ProgressDemo">
 
         </activity>
     </application>
