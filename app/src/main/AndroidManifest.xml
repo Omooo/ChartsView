@@ -10,34 +10,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ShowLyricDemo">
+        <activity android:name=".PocketActivity"
+            android:theme="@style/AppThemeNoBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"/>
 
-        </activity>
-        <activity android:name=".BesselCurveDemo">
+        <activity android:name=".BesselCurveDemo"/>
 
-        </activity>
-        <activity android:name=".PieChartDemo">
+        <activity android:name=".PieChartDemo"/>
 
-        </activity>
-        <activity android:name=".RadarMapDemo">
+        <activity android:name=".RadarMapDemo"/>
 
-        </activity>
-        <activity android:name=".WavesDemo">
+        <activity android:name=".WavesDemo"/>
 
-        </activity>
-        <activity android:name=".NativeEditDemo">
+        <activity android:name=".NativeEditDemo"/>
 
-        </activity>
-        <activity android:name=".ProgressDemo">
-
-        </activity>
+        <activity android:name=".ProgressDemo"/>
+        <activity android:name=".ShowLyricDemo"/>
+        <activity android:name=".DemoActivity"/>
     </application>
 
 </manifest>
