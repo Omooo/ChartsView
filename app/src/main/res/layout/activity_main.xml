@@ -1,19 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="top.omooo.admin.chartsdemo.MainActivity">
-
-    <top.omooo.admin.chartsdemo.view.Chart
-        android:id="@+id/chartView"
-        app:graphTitle="AndroidChartDemo"
-        app:xAxisName="天"
-        app:yAxisName="吃惊"
-        app:axisTextSize="20sp"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:fillViewport="true"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-
-</RelativeLayout>
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_chart"
+                android:text="柱状图"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/btn_demo"
+                android:text="Demo"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/btn_lyric"
+                android:text="歌词"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/btn_native_edit"
+                android:text="带一键删除的EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/btn_piechart"
+                android:text="饼状图"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/btn_pocket"
+                android:text="仿口袋记账主界面"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/btn_progress_bar"
+                android:text="进度条"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/btn_radarmap"
+                android:text="雷达图"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/btn_waves"
+                android:text="波浪图"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/btn_mp_pie_chart"
+                android:text="MPAndroidChart 饼状图"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

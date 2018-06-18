@@ -138,7 +138,6 @@ public class PocketActivity extends AppCompatActivity {
         LinearLayoutManager manager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, true);
         manager.setStackFromEnd(true);
         mRvBills.setLayoutManager(manager);
-//        mRvBills.setNestedScrollingEnabled(false);
         for (int i = 0; i < 20; i++) {
             mBillBeanList.add(new BillBean(true, R.drawable.ic_fish, "支出：" + 10 * i));
         }

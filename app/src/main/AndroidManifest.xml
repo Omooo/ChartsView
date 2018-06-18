@@ -10,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PocketActivity"
+        <activity android:name=".MainActivity"
             android:theme="@style/AppThemeNoBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,7 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".ChartActivity"/>
 
         <activity android:name=".BesselCurveDemo"/>
 
@@ -33,6 +33,8 @@
         <activity android:name=".ProgressDemo"/>
         <activity android:name=".ShowLyricDemo"/>
         <activity android:name=".DemoActivity"/>
+        <activity android:name=".PocketActivity"/>
+        <activity android:name=".MPPieChartActivity"/>
     </application>
 
 </manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="top.omooo.admin.chartsdemo.ChartActivity">
+
+    <top.omooo.admin.chartsdemo.view.Chart
+        android:id="@+id/chartView"
+        app:graphTitle="AndroidChartDemo"
+        app:xAxisName="天"
+        app:yAxisName="吃惊"
+        app:axisTextSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>
