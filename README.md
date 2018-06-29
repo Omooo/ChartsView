@@ -55,3 +55,25 @@ Demo:
 
 [http://blog.csdn.net/u013015161/article/details/50493333](http://blog.csdn.net/u013015161/article/details/50493333）
 
+### 18/06/18 更新
+
+![](https://i.loli.net/2018/06/18/5b277b6e1c915.gif)
+
+主要涉及：
+
+可拉伸的 ScrollView，RecycleView添加头布局尾布局，头布局吸附效果，属性动画。
+
+参考自：[Android上实现仿IOS弹性ScrollView](https://blog.csdn.net/zhangjg_blog/article/details/19193671)
+
+MPAndroid画饼状图：
+
+![](https://i.loli.net/2018/06/18/5b277d70b156c.gif)
+
+其实也不难，了解一些API就行了。
+
+参考：
+
+[https://blog.csdn.net/qq_26787115/article/details/53258500](https://blog.csdn.net/qq_26787115/article/details/53258500)
+
+[https://blog.csdn.net/zcmain/article/details/53611245](https://blog.csdn.net/zcmain/article/details/53611245)
+
