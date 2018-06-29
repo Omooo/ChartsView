@@ -36,6 +36,14 @@ public class MainActivity extends AppCompatActivity {
     Button mBtnWaves;
     @BindView(R.id.btn_mp_pie_chart)
     Button mBtnMpPieChart;
+    @BindView(R.id.btn_move)
+    Button mBtnMove;
+    @BindView(R.id.btn_scroll)
+    Button mBtnScroll;
+    @BindView(R.id.btn_board)
+    Button mBtnBoard;
+    @BindView(R.id.btn_rain)
+    Button mBtnRain;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -45,7 +53,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @OnClick({R.id.btn_chart, R.id.btn_demo, R.id.btn_lyric, R.id.btn_native_edit, R.id.btn_piechart, R.id.btn_pocket, R.id.btn_progress_bar, R.id.btn_radarmap, R.id.btn_waves, R.id.btn_mp_pie_chart})
+    @OnClick({R.id.btn_chart, R.id.btn_demo, R.id.btn_lyric, R.id.btn_native_edit, R.id.btn_piechart, R.id.btn_pocket, R.id.btn_progress_bar, R.id.btn_radarmap, R.id.btn_waves, R.id.btn_mp_pie_chart,
+            R.id.btn_move, R.id.btn_scroll, R.id.btn_board, R.id.btn_rain})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btn_chart:
@@ -77,6 +86,17 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_mp_pie_chart:
                 startActivity(new Intent(this, MPPieChartActivity.class));
+                break;
+            case R.id.btn_move:
+                startActivity(new Intent(this, MoveViewActivity.class));
+                break;
+            case R.id.btn_scroll:
+                startActivity(new Intent(this, ScrollViewActivity.class));
+                break;
+            case R.id.btn_board:
+                startActivity(new Intent(this, DrawBoardActivity.class));
+                break;
+            case R.id.btn_rain:
                 break;
         }
     }

@@ -35,6 +35,9 @@
         <activity android:name=".DemoActivity"/>
         <activity android:name=".PocketActivity"/>
         <activity android:name=".MPPieChartActivity"/>
+        <activity android:name=".MoveViewActivity"/>
+        <activity android:name=".ScrollViewActivity"/>
+        <activity android:name=".DrawBoardActivity"/>
     </application>
 
 </manifest>

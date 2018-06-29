@@ -63,6 +63,30 @@
                 android:textAllCaps="false"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/btn_move"
+                android:text="自定义Behavior（一）View与View之间的相互关系"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/btn_scroll"
+                android:text="自定义Behavior（二）View与滑动之间的相互关系"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/btn_board"
+                android:textAllCaps="false"
+                android:text="自定义SurfaceView实现画板"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/btn_rain"
+                android:text="自定义SurfaceView（二）下雨"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
         </LinearLayout>
     </ScrollView>
 </FrameLayout>
