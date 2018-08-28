@@ -10,6 +10,7 @@ import android.widget.Button;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import top.omooo.admin.chartsdemo.banner.BannerActivity;
 
 /**
  * Created by SSC on 2018/6/18.
@@ -44,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
     Button mBtnBoard;
     @BindView(R.id.btn_rain)
     Button mBtnRain;
+    @BindView(R.id.btn_banner)
+    Button mBtnBanner;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -54,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @OnClick({R.id.btn_chart, R.id.btn_demo, R.id.btn_lyric, R.id.btn_native_edit, R.id.btn_piechart, R.id.btn_pocket, R.id.btn_progress_bar, R.id.btn_radarmap, R.id.btn_waves, R.id.btn_mp_pie_chart,
-            R.id.btn_move, R.id.btn_scroll, R.id.btn_board, R.id.btn_rain})
+            R.id.btn_move, R.id.btn_scroll, R.id.btn_board, R.id.btn_rain, R.id.btn_banner})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btn_chart:
@@ -97,6 +100,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, DrawBoardActivity.class));
                 break;
             case R.id.btn_rain:
+                break;
+            case R.id.btn_banner:
+                startActivity(new Intent(this, BannerActivity.class));
                 break;
         }
     }

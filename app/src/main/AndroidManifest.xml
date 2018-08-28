@@ -38,6 +38,8 @@
         <activity android:name=".MoveViewActivity"/>
         <activity android:name=".ScrollViewActivity"/>
         <activity android:name=".DrawBoardActivity"/>
+
+        <activity android:name=".banner.BannerActivity"/>
     </application>
 
 </manifest>
